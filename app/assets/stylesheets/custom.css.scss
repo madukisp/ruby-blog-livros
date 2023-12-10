@@ -1,0 +1,52 @@
+// app/assets/stylesheets/custom.css.scss
+
+// Fundo
+body {
+    background-color: #faf4b7; // Amarelo pastel como exemplo para o fundo
+    font-family: 'Arial', sans-serif;
+  }
+  
+  // Textos
+  h1, h2, h3, p {
+    color: #a9c0cb; // Azul pastel para os títulos e textos
+  }
+  
+  // Formulários
+  input, textarea, select {
+    background-color: #f8c6cc; // Rosa pastel para o fundo dos campos do formulário
+    border: 1px solid #d7bef4; // Borda lilás
+    padding: 8px;
+    margin: 5px 0;
+  }
+  
+  input[type="submit"] {
+    background-color: #b6d6b1; // Verde pastel para o botão
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: darken(#b6d6b1, 10%); // Escurecer um pouco o verde ao passar o mouse
+    }
+  }
+  
+  // Links
+  a {
+    color: #a9c0cb; // Azul pastel para os links
+    &:hover {
+      color: darken(#a9c0cb, 10%); // Escurecer um pouco o azul ao passar o mouse
+    }
+  }
+  
+
+  .banner {
+    width: 50%;
+    height: 50px; // Altere este valor para ajustar a altura do banner
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; // Isso fará com que a imagem cubra totalmente o espaço disponível
+    }
+}
+  
